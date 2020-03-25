@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 12rem;
+  width: 12rem;
+  pointer-events: none;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  background-color: #ebe8e8;
+  align-items: center;
+  justify-content: space-around;
+} 
+.App-header {
+ 
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+}
+button{
+  justify-self: center;
+  font-size: 2.2rem;
+  padding-top:0.4rem;
+  padding-bottom: 0.4rem;
+  outline: none;
+  background: none;
+  color: #950000;
+  border: solid 1px #950000;
+  cursor: pointer;
+}
+/* button:hover{
+  box
+} */
+input{
+  font-size: 1.2rem;
+  padding:0.2rem;
+}
+h4{
+  color:#950000;
+}
+
+.form{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding:1rem;
+  margin:0rem;
+}
+h6{
+  display: inline;
+  margin:2rem;
+  color:#950000;
+}
+input.number{
+  font-size: 1.1rem;
+  padding:0.2;
+  width:3rem;
+  margin:2rem;
+  margin-top:0;
+
+
+}
+.inputGroup{
+  display: flex;
+  justify-content: space-between;
+}
+.numberGroup{
+  /* display:flex;
+  text-align: center;
+  width:100%;
+  justify-content: space-between; */
+}
+.smol{
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+button.small{
+  font-size: 1.3rem;
+}
